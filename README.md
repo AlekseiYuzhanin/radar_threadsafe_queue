@@ -30,21 +30,22 @@
 ```console
 example@user:~/$ git clone https://github.com/AlekseiYuzhanin/radar_threadsafe_queue
 example@user:~/$ cd radar_threadsafe_queue
-example@user:~/radar_threadsafe_queue/$ g++ main.cpp -o <название_проекта>
-example@user:~/radar_threadsafe_queue/$.<название_проекта>
+example@user:~/radar_threadsafe_queue$ g++ main.cpp -o <название_проекта>
+example@user:~/radar_threadsafe_queue$.<название_проекта>
 ```
 ## Make :
 Необходимое ПО: компилятор gcc, компилятор g++, make, git.
 ```console
-example@user:~/$ git clone https://github.com/AlekseiYuzhanin/radar_first_mongo_project
-example@user:~/$ cd radar_first_mongo_project
-example@user:~/radar_first_mongo_project$ docker-compose up --build
+example@user:~/$ git clone https://github.com/AlekseiYuzhanin/radar_threadsafe_queue
+example@user:~/$ cd rradar_threadsafe_queue
+example@user:~/radar_threadsafe_queue$ make build
+example@user:~/radar_threadsafe_queue$ make start
 ```
-
 ## Docker :
-Необходимое ПО: Docker, docker-compose, git.
+Необходимое ПО: Docker, git.
 ```console
-example@user:~/$ git clone https://github.com/AlekseiYuzhanin/radar_first_mongo_project
-example@user:~/$ cd radar_first_mongo_project
-example@user:~/radar_first_mongo_project$ docker-compose up --build
+example@user:~/$ git clone https://github.com/AlekseiYuzhanin/radar_threadsafe_queue
+example@user:~/$ cd radar_threadsafe_queue
+example@user:~/radar_first_mongo_project$ docker build -t <название_проекта> .
+example@user:~/radar_first_mongo_project$ docker run <название_проекта>ю
 ```
