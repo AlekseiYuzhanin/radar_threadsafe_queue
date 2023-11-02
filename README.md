@@ -37,7 +37,7 @@ example@user:~/radar_threadsafe_queue$.<название_проекта>
 Необходимое ПО: компилятор gcc, компилятор g++, make, git.
 ```console
 example@user:~/$ git clone https://github.com/AlekseiYuzhanin/radar_threadsafe_queue
-example@user:~/$ cd rradar_threadsafe_queue
+example@user:~/$ cd radar_threadsafe_queue
 example@user:~/radar_threadsafe_queue$ make build
 example@user:~/radar_threadsafe_queue$ make start
 ```
@@ -46,6 +46,6 @@ example@user:~/radar_threadsafe_queue$ make start
 ```console
 example@user:~/$ git clone https://github.com/AlekseiYuzhanin/radar_threadsafe_queue
 example@user:~/$ cd radar_threadsafe_queue
-example@user:~/radar_first_mongo_project$ docker build -t <название_проекта> .
-example@user:~/radar_first_mongo_project$ docker run <название_проекта>ю
+example@user:~/radar_threadsafe_queue$ docker build -t <название_проекта> .
+example@user:~/radar_threadsafe_queue$ docker run <название_проекта>.
 ```
